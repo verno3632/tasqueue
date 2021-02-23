@@ -27,7 +27,7 @@ jobs:
       - name: Setup flutter
         uses: subosito/flutter-action@v1
         with:
-          flutter-version: '1.12.13+hotfix.5'
+          flutter-version: '1.22.5'
 
       - name: Set up test tools
         run: |
