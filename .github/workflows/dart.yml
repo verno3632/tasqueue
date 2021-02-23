@@ -29,6 +29,12 @@ jobs:
         with:
           flutter-version: '1.22.5'
 
+      - name: Upgrade flutter
+        run: |
+          flutter upgrade
+          flutter clean
+          flutter update-packages
+
       - name: Set up test tools
         run: |
           flutter pub get
