@@ -40,7 +40,7 @@ jobs:
         run: |
           export PATH=$PATH:${FLUTTER_HOME}/bin/cache/dart-sdk/bin
           export PATH=$PATH:${FLUTTER_HOME}/.pub-cache/bin
-          ./test.sh
+          script/test.sh
 
       - name: Arcive test results
         if: always()
