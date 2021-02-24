@@ -2,7 +2,7 @@
 
 mkdir -p ./test-reports/ 2>/dev/null
 
-curl -kL https://bootstrap.pypa.io/get-pip.py | python
+curl -kL https://bootstrap.pypa.io/get-pip.py | python3
 pip install junit2html
 
 flutter test --machine > machine.json
